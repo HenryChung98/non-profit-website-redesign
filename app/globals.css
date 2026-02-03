@@ -3,20 +3,27 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary: #171717;
+  --secondary: #171717;
+  --accent: #171717;
+  --muted: #171717;
+  --destructive: #171717;
+  --border: #171717;
+  --input: #171717;
+  --ring: #171717;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+  --color-muted: var(--muted);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
 }
 
 body {
