@@ -21,12 +21,7 @@ The goal is to align UX, frontend, and backend before detailed API design and im
 
 ---
 
-## 3. Out of Scope (for now)
-- User authentication or user accounts
-- Admin dashboard or role-based permissions
-- Online payment processing (donations handled externally)
-- Advanced analytics or tracking
-- Multilingual support (TBD)
+## 3. Out of Scope (TBD)
 
 ---
 
@@ -58,87 +53,5 @@ Homepage sections include:
 
 ---
 
-## 6. Mapping: Homepage Sections → Backend Domains
+## 6. Page-level Functional Requirements (TBD)
 
-| Homepage Section        | Backend Support |
-|-------------------------|-----------------|
-| Activities              | Activities |
-| Community Support       | Community Support |
-| Facilities & Amenities  | Static content or Contacts (facility-related info), TBD |
-| Get Involved            | Volunteer |
-| Get Support             | Community Support + Contact Form |
-| Volunteer               | Volunteer |
-| Donate                  | External link + Contact Form |
-
----
-
-## 7. Page-level Functional Requirements
-
-### 7.1 News & Events
-- Display a list of news and events
-- Allow users to view details of a single item
-- Support basic filtering (news vs events)
-- Content is read-only for public users
-
----
-
-### 7.2 Activities
-- Display a list of activities
-- Allow users to view activity details
-- Activities may include schedule, location, and description
-- Content is read-only for public users
-
----
-
-### 7.3 Community Support
-- Display available community support services
-- Provide clear guidance on how users can access support
-- May include eligibility or contact information
-
----
-
-### 7.4 Reviews / Testimonials
-- Display a list of approved testimonials
-- Testimonials are read-only for public users
-- Submission or moderation flow is TBD
-
----
-
-### 7.5 Contacts
-(Including board members, executives, and key contacts)
-
-- Display contact information grouped by role or team
-- Support basic ordering and grouping
-- Content is read-only for public users
-
----
-
-### 7.6 Contact Form
-- Allow users to submit inquiries
-- Required fields include name, contact information, and message
-- Submissions are stored for follow-up
-- Notifications or integrations are TBD
-
----
-
-### 7.7 Activity Group Leaders + Contact Info
-- Display a list of Dogwood Society activity groups
-- Show group leader names and contact information
-- Content is read-only for public users
-
----
-
-### 7.8 Gallery (TBD)
-- Display a collection of images
-- Images may include captions or tags
-- Image upload and storage approach is TBD
-
----
-
-## 8. Open Questions / Decisions Needed
-- Get Involved vs. Volunteer: Are these two homepage sections clearly differentiated (overview vs. specific action), or potentially overlapping?
-
-## 9. Next Step
-- Review and refine this document with UX, frontend, and backend
-- Align on API contract based on the agreed scope
-- Define data models and endpoints
