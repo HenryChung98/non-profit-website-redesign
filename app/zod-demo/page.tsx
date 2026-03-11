@@ -6,7 +6,7 @@ export const metadata = createMetadata(
   "Form validation with Zod and React Hook Form"
 );
 
-import ZodDemoClient from "./client-component";
+import ZodDemoClient from "./zod-client";
 
 export default function ZodDemoPage() {
   return <ZodDemoClient />;
