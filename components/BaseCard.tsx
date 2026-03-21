@@ -36,7 +36,7 @@ export function BaseCard({
         <img
           src={imageSrc}
           alt={imageAlt}
-          className="w-full h-32 rounded-lg object-cover"
+          className="w-full aspect-video rounded-lg object-cover"
         />
       )}
 
