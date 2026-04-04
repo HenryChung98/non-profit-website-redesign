@@ -31,7 +31,7 @@ interface CardProps {
   className?: string;
 }
 
-export function Card({ title, description, imageSrc, imageAlt = "", link, className }: CardProps) {
+export function ContentCard({ title, description, imageSrc, imageAlt = "", link, className }: CardProps) {
   return (
     <CardBase className={cn("w-full rounded-lg ring-0 shadow-none gap-2.5 p-4", className)}>
       {imageSrc && (

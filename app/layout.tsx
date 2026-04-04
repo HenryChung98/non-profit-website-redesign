@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 import { Navbar } from "@/components/common/navbar";
 import { Footer } from "@/components/common/footer";
 
-const inter = Inter({subsets:['latin'],variable:'--font-sans'});
+const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
 export const viewport: Viewport = {
   width: "device-width",
@@ -49,9 +49,7 @@ export default function RootLayout({
     <html lang="en" className={cn("font-sans", inter.variable)}>
       <body className={`antialiased`}>
         <Navbar />
-        <main className="flex min-h-screen items-center justify-center">
-          {children}
-        </main>
+        <main className="flex flex-col min-h-screen">{children}</main>
         <Footer />
       </body>
     </html>
