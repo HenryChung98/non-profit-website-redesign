@@ -33,14 +33,14 @@ interface CardProps {
 
 export function Card({ title, description, imageSrc, imageAlt = "", link, className }: CardProps) {
   return (
-    <CardBase className={cn("w-full rounded-lg p-0 ring-0 shadow-none gap-2.5", className)}>
+    <CardBase className={cn("w-full rounded-lg ring-0 shadow-none gap-2.5 p-4", className)}>
       {imageSrc && (
         <div className="relative w-full aspect-video">
           <Image src={imageSrc} alt={imageAlt} fill className="object-cover" />
         </div>
       )}
 
-      <CardHeader className="px-0 py-0 gap-2">
+      <CardHeader className="px-0 py-0 gap-2 flex-1">
         <CardTitle className="text-lg md:text-xl lg:text-2xl font-bold">{title}</CardTitle>
 
         {description && (
