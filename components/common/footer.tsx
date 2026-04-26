@@ -50,13 +50,13 @@ export const Footer = () => {
                 href="/hours-location"
                 className="text-sm text-muted-foreground hover:text-foreground transition-colors"
               >
-                Hours &amp; Location →
+                Hours &amp; Location {"->"}
               </Link>
               <Link
                 href="/news"
                 className="text-sm text-muted-foreground hover:text-foreground transition-colors"
               >
-                News &amp; Events →
+                News &amp; Events {"->"}
               </Link>
             </div>
           </div>
